@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <header>
+        <section class="header-container">
+            <div class="header-envios">
+                <p>Hacemos envíos gratis a todo el país en compras a partir de $35.000</p>
+            </div>
+            <div class="header-iconos">
+                <div class="header-registro">
+                    <!-- <a href="#" class="crear-cuenta">Crear Cuenta</a> -->
+                    <!-- <a href="#">Iniciar Sesion</a> -->
+                    <button type="button">Iniciar Sesion</button>
+                    <button type="button" id="login-abrir-modal">Abrir Modal</button>
+                </div>
+
+                <!-- Iniciar Sesion/Login -->
+
+                <dialog id="modal-login">
+                    <div class="modal">
+                        <h1>HOLAAAA</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias molestiae,
+                            dolorem esse commodi animi aperiam? Quaerat voluptas corporis necessitatibus adipisci culpa
+                            consectetur alias repellat, aliquid, velit rerum fuga magnam.</p>
+                        <!-- <form action="" class="formulario" method="dialog">
+                            <input type="text" name="" placeholder="Email" id="email">
+                            <input type="password" name="password" placeholder="Contraseña" id="asunto">
+                            <textarea name="msj" id="msj" placeholder="Mensaje"></textarea>
+                            <button type="button">Enviar</button>
+                        </form> -->
+                        <button type="button" id="login-cerrar-modal">CERRAR</button>
+                    </div>
+
+                    <!-- <section class="login-formulario">
+                        <div class="form-box">
+                            <div class="form-values">
+                                <form action="">
+                                    <h2>Login</h2>
+                                    <div class="inputbox">
+                                        <ion-icon name="mail-outline"></ion-icon>
+                                        <input type="email" required>
+                                        <label for="">Email</label>
+                                    </div>
+                                    <div class="inputbox">
+                                        <ion-icon name="lock-closed-outline"></ion-icon>
+                                        <input type="password" required>
+                                        <label for="">Password</label>
+                                    </div>
+                                    <div class="forget">
+                                        <label for=""><input type="checkbox">Remember Me <a href="#">Forget Password</a></label>
+                                    </div>
+                                    <button>Log in</button>
+                                    <div class="register">
+                                        <p>Don't have a acconunt <a href="#">Register</a></p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section> -->
+                </dialog>
+
+
+                <div class="redes-sociales">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+            <div class="header-logo">
+                <img src="img/homero_gordo01.jpg" alt="logo_shop">
+            </div>
+            <div class="header-navbar">
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#">LO MAS VENDIDO</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <div class="carrusel-container2">
+            <ul>
+                <li><img src="img/Batman_TDNR_wallpaper.jpg" alt="img_Batman"></li>
+                <li><img src="img/Batman_TDNR_wallpaper.jpg" alt="img_Batman"></li>
+                <li><img src="img/Batman_TDNR_wallpaper.jpg" alt="img_Batman"></li>
+                <li><img src="img/Batman_TDNR_wallpaper.jpg" alt="img_Batman"></li>
+            </ul>
+        </div>
+
+        <section class="mas-vendidos">
+            <h1>LO MAS VENDIDOS</h1>
+            <div class="container">
+                <div class="cards">
+                    <!-- se podria meter en un div a la imagen y al otro contenido para trabajarlos mejor -->
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+
+
+            </div>
+            <!-- <button type="button">asdasd</button> -->
+            <!-- <div class="container">
+                <h1>LO MAS VENDIDO</h1>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-vendidos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-vendidos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-vendidos">
+                </div>
+                <button type="button">VER MÁS</button>
+            </div> -->
+        </section>
+
+        <div class="info-container">
+            <div class="servicio-info descuento-info">
+                <i class="fa-solid fa-truck"></i>
+                <h3>ENVIOS A TODO EL PAIS</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="servicio-info info-medio">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>PAGOS ONLINE</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="servicio-info">
+                <i class="fa-solid fa-lock"></i>
+                <h3>COMPRAS SEGURAS</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <section class="todos-productos">
+            <h1>TODOS LOS PRODUCTOS</h1>
+            <div class="container">
+                <div class="cards">
+                    <!-- se podria meter en un div a la imagen y al otro contenido para trabajarlos mejor -->
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+
+            </div>
+            <!-- <div class="container">
+                <h1>TODOS LOS PRODUCTOS</h1>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <button type="button">VER MÁS</button>
+            </div> -->
+        </section>
+
+        <div class="info-container">
+            <div class="servicio-info">
+                <i class="fa-solid fa-tag"></i>
+                <h3>5% DE DESCUENTO</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="servicio-info info-medio">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>CONSULTA TUS DUDAS</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="servicio-info">
+                <i class="fa-solid fa-house"></i>
+                <h3>COMODIDAD</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <section class="categorias-productos">
+            <h1>CATEGORIAS</h1>
+            <div class="container">
+                <div class="cards">
+                    <!-- se podria meter en un div a la imagen y al otro contenido para trabajarlos mejor -->
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+                <div class="cards">
+                    <img src="img/homero_gordo01.jpg" alt="img_homero">
+                    <h2>Homero</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta?</p>
+                </div>
+            </div>
+            <!-- <div class="container">
+                <h1>CATEGORIAS</h1>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <div class="img-container">
+                    <img src="img/homero_gordo01.jpg" alt="img-productos">
+                </div>
+                <button type="button">VER MÁS</button>
+            </div> -->
+        </section>
+
+
+
+
+        <!-- <div class="contactos">
+            <div class="info-contactos">
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i><a href="#">123-456</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="#">asd@gmail.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a href="">Jujuy, Argentina</a></li>
+                </ul>
+            </div>
+            <div class="form-contactos">
+                <h1>Formulario</h1>
+            </div>
+        </div> -->
+        <section class="contactos">
+            <div class="container-form">
+                <h1>Contactos</h1>
+                <div class="contenido">
+                    <div class="informacion">
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i><a href="#">tienda@gmail.com</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="#">Av.Siempre Viva 123,
+                                    Springfield</a></li>
+                            <li><i class="fa-brands fa-whatsapp"></i><a href="#">555-555-555</a></li>
+                        </ul>
+                        <div class="socialmedia-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.5980921070377!2d-65.29947619999994!3d-24.185824099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f4313922973%3A0x552c0eaeb6432a0!2sPlaza%20Belgrano!5e0!3m2!1ses!2sar!4v1695527130012!5m2!1ses!2sar"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+
+                        </div>
+                        <!-- <i class="fa-solid fa-phone"></i> -->
+                    </div>
+                    <form action="" class="formulario">
+                        <input type="text" name="" placeholder="Nombre" id="nombre">
+                        <input type="text" name="" placeholder="Email" id="email">
+                        <input type="text" name="" placeholder="Asunto" id="asunto">
+                        <textarea name="msj" id="msj" placeholder="Mensaje"></textarea>
+                        <button type="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="items-container">
+                <div class="inf-container">
+                    <h3>CORPORATE INFO</h3>
+                    <ul>
+                        <li>CAREERS</li>
+                        <li>B2B</li>
+                        <li>PRIVACY POLICY</li>
+                        <li>TERMS & CONDITIONS</li>
+                        <li>COOKIES</li>
+                    </ul>
+                </div>
+                <div class="mediasocial-container">
+                    <h3>FOLLOW US</h3>
+                    <div class="media-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                </div>
+                <div class="registro-container">
+                    <h3>SIGN UP TO EMPRESA</h3>
+                    <div class="registro-parrafos">
+                        <p>SUSCRIBE TO OUR NEWSLETTER TO GET LATEST NEWS</p>
+                        <P>ABOUT OUR PRODUCTS, EVENTS AND SALES</P>
+                    </div>
+                    <div class="box">
+                        <div class="form-box">
+                            <form action="#">
+                                <input type="text" name="emailaddress" placeholder="ENTER YOUR E-MAIL ADDRESS ">
+                                <button type="submit">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <!-- <span class="material-symbols-outlined">
+                                    send
+                                    </span> -->
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-container">
+                <p>&copy;2023 EMPRESA - ALL RIGHTS RESERVED</p>
+                <div class="tarjetas-container">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-brands fa-cc-diners-club"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
