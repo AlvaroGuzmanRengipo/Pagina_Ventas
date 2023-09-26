@@ -8,7 +8,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Shop</title>
+    <title>SneakerStore</title>
 </head>
 
 <body>
@@ -78,16 +78,17 @@
                     <i class="fa-brands fa-x-twitter"></i>
                 </div>
             </div>
-            <div class="header-logo">
+            <div class="header-logo" id="inicio">
                 <img src="img/homero_gordo01.jpg" alt="logo_shop">
             </div>
             <div class="header-navbar">
                 <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">NOSOTROS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                    <li><a href="#">LO MAS VENDIDO</a></li>
-                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#incio">INICIO</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="#mas-vendidos">LO MAS VENDIDO</a></li>
+                    <li><a href="#todos-productos">PRODUCTOS</a></li>
+                    <li><a href="#marcas">MARCAS</a></li>
+                    <li><a href="#contactos">CONTACTO</a></li>
                 </ul>
             </div>
         </section>
@@ -103,8 +104,27 @@
             </ul>
         </div>
 
-        <section class="mas-vendidos">
-            <h1>LO MAS VENDIDOS</h1>
+        <div class="contenedor-img-promo">
+            <div class="img-promo">
+                <h2>Titulo Img</h2>
+            </div>
+            <div class="img-promo">
+                <h2>Titulo Img</h2>
+            </div>
+            <div class="img-promo">
+                <h2>Titulo Img</h2>
+            </div>
+            <div class="img-promo">
+                <h2>Titulo Img</h2>
+            </div>
+        </div>
+
+        <section class="mas-vendidos" id="mas-vendidos">
+            <div class="titulo-secciones">
+                <h1>LO MAS VENDIDOS</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, harum.</h4>
+            </div>
+
             <div class="container">
                 <div class="cards">
                     <!-- se podria meter en un div a la imagen y al otro contenido para trabajarlos mejor -->
@@ -159,8 +179,11 @@
             </div>
         </div>
 
-        <section class="todos-productos">
-            <h1>TODOS LOS PRODUCTOS</h1>
+        <section class="todos-productos" id="todos-productos">
+            <div class="titulo-secciones">
+                <h1>TODOS LOS PRODUCTOS</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, harum.</h4>
+            </div>
             <div class="container">
                 <div class="cards">
                     <!-- se podria meter en un div a la imagen y al otro contenido para trabajarlos mejor -->
@@ -237,8 +260,11 @@
             </div>
         </div>
 
-        <section class="categorias-productos">
-            <h1>CATEGORIAS</h1>
+        <section class="categorias-productos" id="marcas">
+            <div class="titulo-secciones">
+                <h1>MARCAS</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, harum.</h4>
+            </div>
             <div class="container">
                 <div class="cards">
                     <!-- se podria meter en un div a la imagen y al otro contenido para trabajarlos mejor -->
@@ -292,13 +318,13 @@
                 <h1>Formulario</h1>
             </div>
         </div> -->
-        <section class="contactos">
+        <section class="contactos" id="contactos">
             <div class="container-form">
                 <h1>Contactos</h1>
                 <div class="contenido">
                     <div class="informacion">
                         <ul>
-                            <li><i class="fa-solid fa-envelope"></i><a href="#">tienda@gmail.com</a></li>
+                            <li><i class="fa-solid fa-envelope"></i><a href="#">SneakerStore@gmail.com</a></li>
                             <li><i class="fa-solid fa-location-dot"></i><a href="#">Av.Siempre Viva 123,
                                     Springfield</a></li>
                             <li><i class="fa-brands fa-whatsapp"></i><a href="#">555-555-555</a></li>
@@ -377,7 +403,7 @@
                 </div>
             </div>
             <div class="copyright-container">
-                <p>&copy;2023 EMPRESA - ALL RIGHTS RESERVED</p>
+                <p>&copy;2023 SneakerStore - ALL RIGHTS RESERVED</p>
                 <div class="tarjetas-container">
                     <i class="fa-brands fa-cc-visa"></i>
                     <i class="fa-brands fa-cc-mastercard"></i>

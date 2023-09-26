@@ -13,6 +13,12 @@
     /* font-family: 'Roboto', sans-serif; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------PAGINA PRINCIPAL------------ */
+
 /* Header */
 
 /* .header-container {
@@ -37,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 5px;
+    padding: 10px 5px;
     font-size: 1.2em;
     color: white;
 }
@@ -134,18 +140,21 @@
     transition: all 0.5s ease;
 }
 
-.header-container .header-navbar ul li a:hover {
+/* .header-container .header-navbar a:active {
+    color: blue;
+} */
+
+.header-container .header-navbar ul li a:hover{
     color: #e76f51;
-    text-decoration: underline ;
+    /* text-decoration: underline ; */
 }
 
 /* Carrusel */
 
 .carrusel-container2 {
     width: 100%;
-    height: 75vh;
-    overflow: hidden;
-    
+    height: 55vh;
+    overflow: hidden;    
 }
 
 .carrusel-container2 ul {
@@ -160,8 +169,7 @@
 
 .carrusel-container2 ul li img {
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
 
 @keyframes cambio{
@@ -178,13 +186,57 @@
     100%{margin-left: -300%;}
 }
 
+/* Imagenes Promo */
+
+.contenedor-img-promo {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(300px,1fr)
+    );
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.contenedor-img-promo .img-promo{
+    width: 100%;
+    height:250px;
+    /* background: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background */
+    background-image: url(img/homero_gordo01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;    
+}
+
+.contenedor-img-promo .img-promo h2 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+/* Titulos de las Secciones */
+.titulo-secciones {
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    color: #202020;
+}
+
+.titulo-secciones h4 {
+    color: rgba(0, 0, 0, .5);
+}
+
 
 /* Seccion - Mas vendidos/Cards  */
+
+
 .mas-vendidos {
-    padding: 50px 0;
-}
-.mas-vendidos h1 {
-    text-align: center;
+    padding: 40px 0;
 }
 
 .container {
@@ -251,7 +303,7 @@
 
 /* Contenedor de Informacion */
 .info-container {
-    background: #323232;
+    background: #202020;
     width: 100%;
     height: 200px;
     display: grid;
@@ -259,6 +311,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    color: #747474;
 }
 
 
@@ -268,7 +321,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;   
+    text-align: center; 
     
 }
 
@@ -280,6 +334,10 @@
     
 } */
 
+.info-container .servicio-info p {
+    padding: 0 10px;
+}
+
 .info-medio {
     color: #e76f51;
     border-right: 2px solid #e76f51;
@@ -288,18 +346,12 @@
 
 /* Seccion - Todos los productos  */
 .todos-productos {
-    padding: 50px 0;
-}
-.todos-productos h1 {
-    text-align: center;
+    padding: 40px 0;
 }
 
 /* Seccion - Categoria  */
 .categorias-productos {
-    padding: 50px 0;
-}
-.categorias-productos h1 {
-    text-align: center;
+    padding: 40px 0;
 }
 
 
@@ -351,9 +403,9 @@
 
 .contenido .informacion ul li a {
     padding-left: 20px;
-    color: #fff;
+    color: #747474;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 400;
 }
 .contenido .informacion .socialmedia-icons a {
     color: #e76f51;
@@ -446,26 +498,11 @@
 
 
 
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 
 footer {
     background-color: #202020;
-    color: #dbdbdd;
+    color: white;
 }
 
 .footer-container {
@@ -525,12 +562,15 @@ footer {
     align-items: center;
     gap: 20px;
     padding: 20px 0;
-    color: #747474;
+    color: #e76f51;
+    cursor: pointer;
+    font-size: 1.2em;
 }
 
 .inf-container ul {
     padding: 20px 0;
     color: #747474;
+    cursor: pointer;
 }
 
 .form-box form {
@@ -543,6 +583,95 @@ form input {
 
 .form-box form button {
     width: 40px;
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 3px;
+    color: #747474;
+    cursor: pointer;
 }
+
+
+
+
+/* ------------PAGINA NOSOTROS------------ */
+
+.nosotros {
+    /* background: #747474; */
+    margin: 20px 10px;
+}
+
+.nosotros ul {
+    font-size: 1em;
+    font-weight: 500;
+    color: #202020;
+    display: flex;
+}
+.nosotros ul li a {
+    color: #202020;
+    padding: 0 5px;
+}
+
+/* Texto */
+
+.nosotros .texto-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+    /* background: #e76f51; */
+}
+
+.nosotros .texto-container h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    padding: auto;
+}
+
+.nosotros .texto-container p{
+    padding: 0 50px;
+    margin: auto;
+}
+
+/* Perfiles Cards */
+
+.nosotros .perfil-contenedor {
+    /* background: red; */
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nosotros .perfil-contenedor .card-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* .nosotros .perfil-contenedor .card-perfil .inf-perfil {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+.nosotros .perfil-contenedor .card-perfil .inf-perfil h1{
+    font-size: 3.5em;
+}
+.nosotros .perfil-contenedor .card-perfil img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 20px;
+
+}
+
+
+ 
+ 
+
+
+
