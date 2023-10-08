@@ -83,7 +83,29 @@
                     <img src="img/homero_gordo01.jpg" alt="logo_shop">
                 </a>
             </div>
-            <div class="header-navbar">
+            <!-- Nuevo Navbar -->
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="#mas-vendidos">LO MAS VENDIDO</a></li>
+                    <li><a href="#todos-productos">PRODUCTOS</a></li>
+                    <li><a href="#marcas">CATEGORIAS</a></li>
+                    <li><a href="#contactos">CONTACTOS</a></li>
+
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="index.html">INICIO</a></li>
+                    <li class="hideOnMobile"><a href="nosotros.html">NOSOTROS</a></li>
+                    <li class="hideOnMobile"><a href="#mas-vendidos">LO MAS VENDIDO</a></li>
+                    <li class="hideOnMobile"><a href="#todos-productos">PRODUCTOS</a></li>
+                    <li class="hideOnMobile"><a href="#marcas">CATEGORIAS</a></li>
+                    <li class="hideOnMobile"><a href="#contactos">CONTACTOS</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+            <!-- <div class="header-navbar">
                 <ul>
                     <li><a href="index.html">INICIO</a></li>
                     <li><a href="#">NOSOTROS</a></li>
@@ -92,7 +114,7 @@
                     <li><a href="#">MARCAS</a></li>
                     <li><a href="#">CONTACTO</a></li>
                 </ul>
-            </div>
+            </div> -->
         </section>
     </header>
     <main>
@@ -206,6 +228,7 @@
             </div>
         </div>
     </footer>
+    <script src="navbar.js"></script>
     <script src="main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

@@ -465,6 +465,14 @@ html {
     border-radius: 10px;
 }
 
+.warning {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #e76f51;
+    padding-top: 10px;
+}
+
 
 /* Modal / PopUp */
 
@@ -816,7 +824,79 @@ form input {
 
 
 
+/* Nuevo Navbar */
+nav {
+    background-color: #202020;
+}
 
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e76f51;
+    /* background-color: #f0f0f0; */
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
 
 
 
