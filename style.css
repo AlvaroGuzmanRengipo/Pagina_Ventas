@@ -26,7 +26,7 @@ html {
 } */
 .header-container .header-envios {
     background: #202020;
-    color: white;
+    color: #620586;
     text-align: center;
     font-size: 1.2em;
     font-weight: 650;
@@ -39,7 +39,7 @@ html {
 }
 
 .header-container .header-iconos {
-    background: #e76f51;
+    background: #747474;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,7 @@ html {
 .header-container .header-iconos .header-registro button {
     padding: 10px;
     border: transparent;
-    background: #e76f51;
+    background: #747474;
     color: #fff;
     cursor: pointer;
     font-size: .8em;
@@ -110,12 +110,14 @@ html {
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    background-color: #0a0a0a;
     
 }
 
 .header-container .header-logo img {
-    height: 225px;
+    width: 190px;
+    height: 190px;
     border-radius: 100%;
     padding: 10px 0;
 }
@@ -145,7 +147,7 @@ html {
 } */
 
 .header-container .header-navbar ul li a:hover{
-    color: #e76f51;
+    color: #620586;
     /* text-decoration: underline ; */
 }
 
@@ -153,8 +155,9 @@ html {
 
 .carrusel-container2 {
     width: 100%;
-    height: 55vh;
+    height: 100%;
     overflow: hidden;    
+
 }
 
 .carrusel-container2 ul {
@@ -169,7 +172,8 @@ html {
 
 .carrusel-container2 ul li img {
     width: 100%;
-    height: 100%;    
+    height: 100%;  
+     
 }
 
 @keyframes cambio{
@@ -198,7 +202,7 @@ html {
     margin: 10px 0;
 }
 
-.contenedor-img-promo .img-promo{
+.contenedor-img-promo .img-promo1{
     width: 100%;
     height:250px;
     /* background: chocolate; */
@@ -207,16 +211,43 @@ html {
     justify-content: center;
 
     /* background */
-    background-image: url(img/homero_gordo01.jpg);
+    background-image: url(img-bandas/MCR-banda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;    
+}
+.contenedor-img-promo .img-promo2{
+    width: 100%;
+    height:250px;
+    /* background: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background */
+    background-image: url(img-bandas/Paramore-banda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;    
+}
+.contenedor-img-promo .img-promo3{
+    width: 100%;
+    height:250px;
+    /* background: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background */
+    background-image: url(img-bandas/LK-banda.jpg);
     background-size: cover;
     background-position: center;
     background-image: no-repeat;    
 }
 
-.contenedor-img-promo .img-promo h2 {
+.contenedor-img-promo .img-promo1, .img-promo2, .img-promo3 h2 {
     color: #fff;
-    font-size: 2em;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 /* Titulos de las Secciones */
@@ -330,7 +361,7 @@ html {
     padding: 5px 0;
 } */
 /* .descuento-info {
-    color: #e76f51;
+    color: #620586;
     
 } */
 
@@ -339,9 +370,9 @@ html {
 }
 
 .info-medio {
-    color: #e76f51;
-    border-right: 2px solid #e76f51;
-    border-left: 2px solid #e76f51;
+    color: #620586;
+    border-right: 2px solid #620586;
+    border-left: 2px solid #620586;
 }
 
 /* Seccion - Todos los productos  */
@@ -375,7 +406,7 @@ html {
     font-weight: 600;
     text-align: center;
     margin-bottom: 25px;
-    color: #e76f51;
+    color: #620586;
 }
 
 .contenido {
@@ -393,7 +424,7 @@ html {
     display: flex;
     flex-direction: column;
     height: auto;
-    color: #e76f51;
+    color: #620586;
     font-size: 1.2em;
 }
 
@@ -408,7 +439,7 @@ html {
     font-weight: 400;
 }
 .contenido .informacion .socialmedia-icons a {
-    color: #e76f51;
+    color: #620586;
 }
 
 .contenido .informacion .socialmedia-icons {
@@ -448,13 +479,13 @@ html {
 }
 
 .formulario input[type='text']:focus, .formulario textarea:focus {
-    border: 1px solid #e76f51;
+    border: 1px solid #620586;
 }
 
 .formulario button {
     padding: 12px 30px;
     border: transparent;
-    background: #e76f51;
+    background: #620586;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
@@ -469,7 +500,7 @@ html {
     width: 200px;
     text-align: center;
     margin: auto;
-    color: #e76f51;
+    color: #620586;
     padding-top: 10px;
 }
 
@@ -570,7 +601,7 @@ footer {
     align-items: center;
     gap: 20px;
     padding: 20px 0;
-    color: #e76f51;
+    color: #620586;
     cursor: pointer;
     font-size: 1.2em;
 }
@@ -628,7 +659,7 @@ form input {
     justify-content: space-evenly;
     align-items: center;
     padding: 25px 0;
-    /* background: #e76f51; */
+    /* background: #620586; */
 }
 
 .nosotros .texto-container h1 {
@@ -736,7 +767,7 @@ form input {
 
 /* Descripcion del Producto */
 .producto-container .producto-inf .producto-descripcion {
-    /* background: #e76f51; */
+    /* background: #620586; */
     width: auto;
     /* height: 100%; */
     padding: 10px;
@@ -762,8 +793,6 @@ form input {
 .producto-container .producto-inf .producto-descripcion p {
     font-size: 1em;
     margin: auto;
-    padding: 0 15px;
-
 }
 
 .producto-container .producto-inf .producto-descripcion table {
@@ -785,7 +814,7 @@ form input {
     gap: 10px;
     background: #202020;
     display: flex;
-    color: #e76f51;
+    color: #620586;
     align-items: center;
 }
 
@@ -851,7 +880,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e76f51;
+    color: #620586;
     /* background-color: #f0f0f0; */
 }
 
@@ -905,7 +934,7 @@ nav a:hover {
 /* .producto-slider{
     width: 80vh; 
     overflow: hidden;
-    border: 10px solid #e76f51;
+    border: 10px solid #620586;
     border-radius: 3px;
     box-shadow: 0 15px 13px rgba(0,0,0,0.3);
 }
