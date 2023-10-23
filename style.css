@@ -97,6 +97,10 @@ html {
     padding: 0 10px;
 }
 
+.header-container .redes-sociales i:hover {
+    color: #620586;
+}
+
 .header-container .redes-sociales .fa-cart-shopping {
     border-right: 2px solid white;
 }
@@ -111,13 +115,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;    
-    background-color: #0a0a0a;
+    background-image: url(img/bgimg_logo.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* background-color: #050508; */
     
 }
 
 .header-container .header-logo img {
     width: 190px;
-    height: 190px;
+    height: auto;
     border-radius: 100%;
     padding: 10px 0;
 }
@@ -150,6 +158,11 @@ html {
     color: #620586;
     /* text-decoration: underline ; */
 }
+
+/* Para Navbar fixed */
+/* .navbar-static {
+    position: fixed;
+} */
 
 /* Carrusel */
 
@@ -853,7 +866,7 @@ form input {
 
 
 
-/* Nuevo Navbar */
+/* NUEVO!!!!!!!!!!!!! Navbar */
 nav {
     background-color: #202020;
 }
@@ -861,7 +874,7 @@ nav {
 nav ul {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
